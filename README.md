@@ -7,19 +7,18 @@ express application. [Featured on Awesome Preact](https://github.com/preactjs/aw
 
 Adapted in part from the official [Preact typescript template](https://github.com/preactjs-templates/typescript). Includes
 
--   PWA + offline support with service workers (part of template)
--   Code splitting on routes / opt in on components (part of template)
--   Express API with shared response types
+-   PWA + offline support with service workers (provided by preact-cli)
+-   Code splitting on routes / opt in on components (provided by preact-cli)
+-   Preact component tests with [preact-testing-library](https://github.com/testing-library/preact-testing-library)
 -   Sass typescript class support
--   Docker support
--   [preact-testing-library](https://github.com/testing-library/preact-testing-library) over the enzyme default
 
 ## ToDo
 
--   Add UI Component Unit Tests
 -   Add Cypress Integration Test
 -   Add Express
 -   Add Express Unit Tests
+-   Add API response shared types for UI to utilize
+-   Docker support
 
 ## Improvements
 
