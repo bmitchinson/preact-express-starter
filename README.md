@@ -33,6 +33,8 @@ Adapted in part from the official [Preact typescript template](https://github.co
 
 ## CLI Commands
 
+### Preact:
+
 -   `npm run dev`: Run a development, HMR server for the preact app.
 
 -   `npm run serve`: Run a production-like server for the preact app.
@@ -42,5 +44,7 @@ Adapted in part from the official [Preact typescript template](https://github.co
 -   `npm run lint`: Pass TypeScript files using ESLint
 
 -   `npm run test`: Run Jest test suite
+
+-   `npm run test:watch`: Run in watch mode
 
 For detailed explanation on how preact things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
