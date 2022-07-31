@@ -1,5 +1,7 @@
 # preact-express-starter
 
+(Not yet finished, see "todo" section)
+
 Starter app that builds a Preact single page application, bundled with an
 express application. [Featured on Awesome Preact](https://github.com/preactjs/awesome-preact)
 
@@ -12,11 +14,19 @@ Adapted in part from the official [Preact typescript template](https://github.co
 -   Docker support
 -   [preact-testing-library](https://github.com/testing-library/preact-testing-library) over the enzyme default
 
+## ToDo
+
+-   Add UI Component Unit Tests
+-   Add Cypress Integration Test
+-   Add Express
+-   Add Express Unit Tests
+
 ## Improvements
 
 -   routes need to be default exports, it's eh to have half of the react components
     be default exports, and the others named exports. Would like more manual
     control over how code splitting functions
+-
 
 ## Notes
 

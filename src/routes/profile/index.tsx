@@ -1,6 +1,6 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
-import { Counter } from '../../components/Counter';
+import { Counter } from '../../components/Counter/Counter';
 import style from './Profile.scss';
 
 interface Props {

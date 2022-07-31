@@ -8,7 +8,10 @@ export const Counter = () => {
     return (
         <Fragment>
             <div class={style['counter-row']}>
-                <button onClick={() => setCount((count) => count + 1)}>
+                <button
+                    onClick={() => setCount((count) => count + 1)}
+                    data-testid="increment-btn"
+                >
                     Click Me
                 </button>
                 <p>Clicked {count} times</p>
